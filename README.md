@@ -6,7 +6,7 @@ This repository includes custom scripts to evaluate the performance of MP2EPI di
 
 ### 1. Gray Matter (GM) and White Matter (WM) Boundary Plotting (MATLAB)
 * **File name:** get_env_gm_wm.m
-* **Description:** Plots GM/WM boundaries on uncorrected and corrected MP2EPI images for visual inspection of distortion correction performance. See its help lines for details.
+* **Description:** Plots GM/WM boundaries on uncorrected and corrected MP2EPI images for visual inspection of distortion correction performance. See the comments within the script for detailed instructions.
 * **Usage:** Run the script in MATLAB with the MP2EPI data and their segmentation masks
 
 ### 2. ROI Parcellation and Co-registration (Bash/FreeSurfer)
@@ -16,4 +16,4 @@ This repository includes custom scripts to evaluate the performance of MP2EPI di
 
 ### 3. Subpixel-Resolution Line Profile Comparison (MATLAB)
 * **File name:** cmp_subpx_prof.m
-* **Description:** Extracts multi-line profiles (e.g., 10 lines) across a specified coordinate and plots the mean and standard deviation to compare alignment to MP2RAGE in subpixel resolution. See its help lines for details.
+* **Description:** Extracts multi-line profiles (e.g., 10 lines) across a specified coordinate and plots the mean and standard deviation to compare alignment to MP2RAGE in subpixel resolution. See the comments within the script for detailed instructions.
