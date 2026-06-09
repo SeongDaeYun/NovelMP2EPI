@@ -1,5 +1,5 @@
 # NovelMP2EPI
-This repository includes custom scripts to evaluate the performance of MP2EPI distortion correction using simultaneously acquired reversed-PE data: 1) MATLAB script to plot GM/WM boundaries for visual inspection, 2) FreeSurfer script for ROI parcellation and co-registration, and 3) MATLAB script for subpixel line profile comparison.
+Scripts to evaluate MP2EPI distortion correction performance utilizing simultaneously acquired reversed-PE data.
 ---
 
 ## Included Scripts
@@ -12,7 +12,7 @@ This repository includes custom scripts to evaluate the performance of MP2EPI di
 ### 2. ROI Parcellation and Co-registration (Bash/FreeSurfer)
 * **File name:** roi_coreg_frees.sh
 * **Description:** Performs cortical parcellation using recon-all and boundary-based registration via bbregister; the minimum cost (`mincost`) value evaluates alignment quality.
-* **Usage:** Prior to running (./roi_coreg_frees.sh), set the filenames inside the script.
+* **Usage:** Set the required filenames inside the script prior to execution (e.g., ./roi_coreg_frees.sh)
 
 ### 3. Subpixel-Resolution Line Profile Comparison (MATLAB)
 * **File name:** cmp_subpx_prof.m
