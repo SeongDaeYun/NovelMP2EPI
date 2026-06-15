@@ -24,7 +24,7 @@
 % * Dev.: Seong Dae Yun (s.yun@fz-juelich.de)
 % * Ref.: Yun et al. A Novel Distortion-Matched Anatomical Imaging Sequence for 
 %         High-Fidelity Functional Mapping in Submillimeter-Resolution fMRI.
-%         Sci Rep. 2026. (under revision)
+%         Sci Rep. 2026. in press.
 % ========================================================================
 
 
